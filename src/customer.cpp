@@ -36,15 +36,3 @@ Customer::~Customer() {
 	accounts_.clear();
 }
 
-
-void Customer::createAccount() {
-	std::string name;
-	std::string contact;
-	std::cout << "Enter customer name: ";
-	std::getline(std::cin, name);
-	std::cout << name << std::endl;
-	std::cout << "Enter customer contact info: ";
-	std::getline(std::cin, contact);
-	std::cout << contact << std::endl;
-	
-}

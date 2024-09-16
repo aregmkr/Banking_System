@@ -24,8 +24,5 @@ int main() {
 	obj.withdraw(500);
 	obj.showBalance();
 	std::cout << obj.getOverdraftLimit();
-
-	// Customer obj;
-	// obj.createAccount();
 	return 0;
 }

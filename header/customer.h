@@ -11,7 +11,6 @@ public:
 	Customer(const std::string& name, const std::string& contactInfo, std::vector<Account*> accounts);
 	~Customer();
 
-	void createAccount();
 	void addAccount(Account* account);
 	void viewAccounts() const;
 	void viewTransactionHistory() const;
